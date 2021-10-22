@@ -1,16 +1,37 @@
 {
-  "name": "vscode-calc",
+	"name": "vscode-calc",
 	"displayName": "Programmer Calculator",
 	"description": "Programmer Calculator extension for Visual Studio Code",
+	"publisher": "blacktop",
+	"author": {
+		"name": "Blacktop"
+	},
+	"license": "Apache-2.0",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
 	"categories": [
+		"Debuggers",
 		"Other"
 	],
+	"galleryBanner": {
+		"color": "#fd8d0e",
+		"theme": "dark"
+	},
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/blacktop/vscode-calc"
+	},
+	"bugs": {
+		"url": "https://github.com/blacktop/vscode-calc/issues"
+	},
+	"keywords": [
+		"pcalc calc calulator programmer"
+	],
 	"activationEvents": [
-        "onCommand:vscode-calc.helloWorld"
+		"onCommand:vscode-calc.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
