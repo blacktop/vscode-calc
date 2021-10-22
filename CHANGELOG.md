@@ -1,9 +1,3 @@
-# Change Log
-
-All notable changes to the "vscode-calc" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## v0.0.1 - 22 Oct, 2021
 
 - Initial release
