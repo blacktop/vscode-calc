@@ -13,6 +13,7 @@
 		"vscode": "^1.61.0"
 	},
 	"categories": [
+		"Programming Languages",
 		"Debuggers",
 		"Other"
 	],
@@ -29,7 +30,12 @@
 		"url": "https://github.com/blacktop/vscode-calc/issues"
 	},
 	"keywords": [
-		"pcalc calc calulator programmer"
+		"Calulator",
+		"Basic Calulator",
+		"Programmer Calculator",
+		"Scientific Calculator",
+		"Apple Calculator",
+		"calc"
 	],
 	"activationEvents": [
 		"onCommand:vscode-calc.helloWorld"
@@ -54,14 +60,13 @@
 	"devDependencies": {
 		"@types/glob": "^7.1.4",
 		"@types/mocha": "^9.0.0",
-		"@types/node": "14.x",
+		"@types/node": "^16.11.4",
 		"@types/vscode": "^1.61.0",
 		"@typescript-eslint/eslint-plugin": "^4.31.1",
 		"@typescript-eslint/parser": "^4.31.1",
 		"@vscode/test-electron": "^1.6.2",
 		"eslint": "^7.32.0",
 		"glob": "^7.1.7",
-		"gts": "^3.1.0",
 		"mocha": "^9.1.1",
 		"typescript": "^4.4.3"
 	}
