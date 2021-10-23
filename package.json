@@ -38,14 +38,45 @@
 		"calc"
 	],
 	"activationEvents": [
-		"onCommand:vscode-calc.helloWorld"
+		"onCommand:vscode-calc.basicCalculator",
+		"onCommand:vscode-calc.scientificWorld",
+		"onCommand:vscode-calc.programmerWorld",
+		"onView:vscode-calc-sidebar"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "vscode-calc-sidebar-view",
+					"title": "Calculator",
+					"icon": "media/calculator.svg"
+				}
+			]
+		},
+		"views": {
+			"vscode-calc-sidebar-view": [
+				{
+					"type": "webview",
+					"id": "vscode-calc-sidebar",
+					"name": "Calculator",
+					"icon": "media/calculator.svg",
+					"contextualTitle": "Calculator"
+				}
+			]
+		},
 		"commands": [
 			{
-				"command": "vscode-calc.helloWorld",
-				"title": "Hello World"
+				"command": "vscode-calc.basicCalculator",
+				"title": "Open Basic Calculator"
+			},
+			{
+				"command": "vscode-calc.scientificWorld",
+				"title": "Open Scientific Calculator"
+			},
+			{
+				"command": "vscode-calc.programmerWorld",
+				"title": "Open Programmer Calculator"
 			}
 		]
 	},
